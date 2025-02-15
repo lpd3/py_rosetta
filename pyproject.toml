@@ -1,0 +1,16 @@
+[tool.poetry]
+package-mode = false
+project.name = "py-rosetta"
+version = "0.1.0"
+project.description = "Solutions to tasks at www.rosettacode.com"
+project.licence = "MIT"
+project.authors = [
+    {name = "Larry Devlin",email = "lpd3@github.com"}
+]
+project.readme = "README.md"
+requires-python = ">=3.10"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
